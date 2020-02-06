@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JASON - Je Seung You</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="./css/jquery.fullPage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="wrap" id="fullpage">
+        <div class="section intro">
+            <div class="height100">
+                <div class="introBg">
+                    <img src="./img/main_bg.png">
+                </div>
+                <h1><img src="./img/logo.png" alt="JASON"></h1>
+                <p class="catchPhrase n1">
+                    A <span>space to</span> host <br />
+                </p>
+                <p class="catchPhrase n2">
+                    tomorrow's
+                </p>
+                <p class="catchPhrase n3">
+                    episode.
+                </p>
+                <p class="subCopy">Lorem ipsum dolor, <br />
+                    sit amre accusaniatis tenetur enim.</p>
+                <div class="scrollBot">
+                    <img src="./img/main_arrow.png">
+                </div>
+            </div>
+        </div>
+        <div class="section about">
+            <h3>ABOUT</h3>
+            <div class="row">
+                <div>From Seoul, when he was born and raised, to New York City, NY, Je Seung You has been exploring his interest in making many people's lives better. To reach his goal, he has been involved in social entrepreneurship and non-profit projects based on human-centered design. </div>
+                <div>Currently, he is studying Computer Science and Psychology at Columbia University in the city of New York.</div>
+                <div><img src="./img/main_profile.jpg" alt="profilePhoto"></div>
+            </div>
+        </div>
+        <div class="section project">
+            <h3>PROJECT</h3>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="row">
+                            <div class="img">
+                                <img src="./img/davis_image.jpg">
+                            </div>
+                            <div class="contents">
+                                <div>
+                                    <h5>Davis Project for Peace.</h5>
+                                    <div class="date">2020 - Present</div>
+                                    <p>I designed my individual project on providing an educational platform in Moyale, Kenya on upcoming Summer 2020 as the part of Davis Project for Peace.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row">
+                            <div class="img">
+                                <img src="./img/project_sample.jpeg">
+                            </div>
+                            <div class="contents">
+                                <div>
+                                    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                    <div class="date">2020.01.01 - 2020.01.06</div>
+                                    <p>Lorem, molestias ipsdfsadfsdfsdfsfsam unde quisquam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="row">
+                            <div class="img">
+                                <img src="./img/project_sample.jpeg">
+                            </div>
+                            <div class="contents">
+                                <div>
+                                    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+                                    <div class="date">2020.01.01 - 2020.01.06</div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero hic velit necessitatibus reiciendis est, atque, qui perspiciatis eius rerum assumenda fugit placeat cupiditate maiores modi alias, molestias ipsam unde quisquam!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="section contact">
+            <h3>CONTACT</h3>
+            <p>Feel free to contact me for any ideas or even just a casual discussion about the universe.</p>
+            <div class="formWeb">
+                <form action="">
+                    <div class="row"><input type="text" placeholder="name"></div>
+                    <div class="row"><input type="text" placeholder="email"></div>
+                    <div class="row"><textarea rows="5" placeholder="content"></textarea></div>
+                    <div class="row"><span id="submitButton">SUBMIT</span></div>
+                </form>
+            </div>
+            <div class="copyright">
+                JE SEUNG YOU(JASON) © 2020
+            </div>
+            <div class="scrolltop">
+                <img src="./img/main_arrow.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="absoluteBlock">
+        <div class="path">
+            <ul id="menu">
+                <li data-menuanchor="firstPage" class="active"><a href="#firstPage">intro</a></li>
+                <li data-menuanchor="secondPage"><a href="#secondPage">about</a></li data-menuanchor="firstPage">
+                <li data-menuanchor="3rdPage"><a href="#3rdPage">project</a></li data-menuanchor="firstPage">
+                <li data-menuanchor="4rdPage"><a href="#4rdPage">contact</a></li data-menuanchor="firstPage">
+            </ul>
+        </div>
+        <div class="socialMedia">
+            <ul>
+                <li><a href="https://www.facebook.com/jeseung.you.5" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/jasonryu91/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/je-seung-jason-you-00575015b/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="a" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="js/jquery.fullPage.js"></script>
+    <script>
+        $('#fullpage').fullpage({
+            menu: '#menu',
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage'],
+            autoScrolling: false,
+            continuousVertical: false,
+	        continuousHorizontal: false
+        })
+
+        var bodyHeight = document.body.scrollHeight  - 800;
+        $(window).on("scroll",function(){
+            var scrollY = window.pageYOffset;
+            if(scrollY >  bodyHeight){
+            	$('.scrolltop').addClass('active');
+            }else{
+                $('.scrolltop').removeClass('active');
+            }
+        })
+
+        $('.scrolltop').on('click',function(){
+            $('html, body').animate({
+                scrollTop : 0
+            }, 400);
+        })
+
+        
+    </script>
+</body>
+</html>
