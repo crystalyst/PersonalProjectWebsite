@@ -2,7 +2,7 @@
 <strong>A website to list personal projects</strong>
 
 (Updated Jan 2020)
-I created the website to list the personal projects I am working on along with my academics. 
+I created <i>http://www.columbia.edu/~jy2908/</i> to list the personal projects I am working on along with my academics. 
 
 - Special Feature of the website:
 1. This website is a scroll-website, so it only consists of one page - index.html
