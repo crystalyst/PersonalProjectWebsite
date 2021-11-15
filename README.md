@@ -7,7 +7,7 @@ Website link: <i>http://www.columbia.edu/~jy2908/</i>
 I renovated the website, to make it more simple and minimalistic.
 
 (Updated Jan 2020)
-I created the personal website to list the personal projects I am working on along with my academics. 
+I created the personal website (ScrollWebsite) to list the personal projects I am working on along with my academics. 
 
 - Special Feature of the website:
 1. This website is a scroll-website, so it only consists of one page - index.html
